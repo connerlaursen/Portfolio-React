@@ -547,7 +547,7 @@ a.github {
   
 }
 
-@media screen and (max-width: 500px) and (min-width:0px) {
+@media screen and (max-width: 500px) and (min-width:376px) {
 
   .projectPicture {
     min-height: 80px;
@@ -569,7 +569,7 @@ a.github {
 
 
 
-@media screen and (max-width: 375px) and (min-width:0px) {
+@media screen and (max-width: 375px) and (min-width:351px) {
 
   .aboutWrapper {
     
@@ -605,6 +605,12 @@ a.github {
     align-items: center;
     height: 90vh;
   }
+  .projectPicture {
+    min-height: 70px;
+    max-height: 70px;
+    min-width: 70px;
+    max-width: 70px;
+  }
 
   .projectLabel {
 
@@ -613,6 +619,70 @@ a.github {
   .projectName {
   
     font-size:0.8rem;
+  }
+
+  
+}
+
+@media screen and (max-width: 350px) and (min-width:0px) {
+
+  .aboutWrapper {
+    
+    height: 120vh;
+
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("./assets/images/space.jpg");
+    background-size:140% 150%;
+    background-repeat: no-repeat;
+    background-color: black;
+  
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+    color: white;
+    font-size: .6rem;
+  }
+
+   /*project page */
+
+  .projectWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .projectSection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: -10px;
+    padding-top: 15px;
+  }
+  .projectPicture {
+    min-height: 40px;
+    max-height: 40px;
+    min-width: 40px;
+    max-width: 40px;
+  }
+
+  .projectLabel {
+
+   font-size:0.5rem;
+  }
+  .projectName {
+  
+    font-size:0.5rem;
   }
 
   
