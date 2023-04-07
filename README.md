@@ -1,9 +1,9 @@
 # Portfolio-React
-New Portfolio using React
+Portfolio created from scratch using React
 
 ## Description 
 
-A social media app using nosql to horizontally expand the database.
+A portfolio of my accomplishments as a developer
 
     
 ## Table Of Contents 
@@ -32,5 +32,5 @@ My github profile is at: https://www.github.com/connerlaursen
 
 ## DeployedSite
     
-Here is a link to the deployed site: 
+Here is a link to the deployed site: https://connerlaursen.github.io/Portfolio-React/
     
