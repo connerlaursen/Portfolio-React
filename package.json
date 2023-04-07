@@ -1,11 +1,14 @@
 {
   "name": "portfolio-react",
+  "homepage": "http://connerlaursen.github.io/Portfolio-React/",
   "version": "1.0.0",
   "description": "New Portfolio using React",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd client && npm start"
+    "start": "cd client && npm start",
+    "predeploy": "cd client && npm run build",
+    "deploy": "cd client && gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/connerlaursen/Portfolio-React/issues"
   },
-  "homepage": "https://github.com/connerlaursen/Portfolio-React#readme",
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
