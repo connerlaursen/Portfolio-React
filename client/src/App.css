@@ -5,9 +5,20 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-image: url("./assets/images/space.jpg");
-  background-size:cover;
+  background-size:100% 130%;
+  background-repeat: no-repeat;
   background-color: black;
 
+}
+
+
+
+
+/*pages*/
+
+
+.pdfLink {
+  color:white;
 }
 
 .homeWrapper {
@@ -132,6 +143,7 @@ body {
 
 }
 
+
 .selfImage {
   display: block;
   box-shadow: 0px 0px 40px;
@@ -253,45 +265,6 @@ body {
 
 
 
-@media screen and (max-width: 768px) {
-
-  .navLinks {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    list-style: none;
-    color: white;
-    font-size: 1.2rem;
-  }
-
-  .flex-item {
-    flex-basis: 100%;
-    min-height: 120px;
-    max-height: 200px;
-  }
-
-
-  .hero {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .contact address {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer*/
 
@@ -326,3 +299,146 @@ a.github {
 
 
 
+
+
+
+
+/* responsiveness*/
+
+
+@media screen and (max-width: 1024px) {
+
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    margin-right: 40px;
+    color: white;
+    text-shadow: 1px 3px 3px black;
+    font-size: 1.4rem;
+    font-family: "Inter", sans-serif;
+  }
+
+  .navWrapper {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 12vh;
+    width: 100%;
+  }
+
+  .aboutWrapper {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    height: 85vh;
+
+  }
+
+  .aboutSection {
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: -5%;
+    align-items: center;
+   
+  }
+
+  .selfImageContainer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    bottom: -10px;
+    
+    }
+    .selfImage {
+      width: 180px;
+      height: 180px;
+      display: block;
+      margin-right: 95px;
+      justify-items: center;
+      align-content: center;
+      justify-self: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+  
+
+}
+
+
+
+@media screen and (max-width: 768px)  {
+
+
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .flex-item {
+    flex-basis: 100%;
+    min-height: 120px;
+    max-height: 200px;
+  }
+
+
+  .hero {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact address {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+}
+
+@media screen and (max-width: 375px) and (min-width:0px) {
+
+  .aboutWrapper {
+    
+    height: 120vh;
+
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("./assets/images/space.jpg");
+    background-size:140% 150%;
+    background-repeat: no-repeat;
+    background-color: black;
+  
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+  }
+}
+  

@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div className="resumeWrapper">
     <object className="resumeSection" data={ResumePDF} type="application/pdf" width="80%" height="80%">
-      <p>Alternative text - include a link <a href={ResumePDF}>to the PDF!</a></p>
+      <p>Click <a className ='pdfLink' href={ResumePDF}>here</a> to view or download PDF</p>
   </object>
   </div>
   )
