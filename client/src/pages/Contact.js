@@ -4,15 +4,14 @@ function Contact() {
   return (
     <div className="contactWrapper">
        <div className="formcarry-container">
-      <form action="#" method="POST" class="formcarry-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="fullName" required />
+      <form action="#" method="POST" className="formcarry-form">
 
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required />
+        <input type="text" id="name" name="fullName" placeholder='Name' required />
 
-        <label for="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="7"></textarea>
+        <input type="email" id="email" name="email" placeholder='Email Address' required />
+
+       
+        <textarea name="message" id="message" cols="30" rows="7" placeholder='Message'></textarea>
 
         <button type="submit">Send</button>
       </form>
