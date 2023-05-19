@@ -122,12 +122,6 @@ body {
 
 
 
-.contactWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-}
 .resumeWrapper {
   display: flex;
   justify-content: center;
@@ -209,111 +203,46 @@ body {
 
 
 
-
-
-
-
 /* form on contact me page*/
 
-.formcarry-container * {
-  box-sizing: border-box;
-	font-family: "Inter", sans-serif;
-  --color-blue: #2552d0;
-  --color-light-blue: #3266e3;
-  --color-gray: #e5e7eb;
-  --color-dark-gray: #9da3ae;
-  --color-pink: #edadd2;
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
 
 .formcarry-container {
-
-  --c-width: 50%;
-  --c-max-width: 500px;
-
-  width: var(--c-width);
-  max-width: var(--c-max-width);
-  display: block;
-  margin-top: 7vh;
+  box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+  width: 35%;
 }
 
-.formcarry-form label {
-  display: block;
-  padding: 8px 0 2px 0;
-  letter-spacing: -0.2px;
-  cursor: pointer;
-  font-size: 13px;
-  font-weight: 600;
-  color: white;
-  text-shadow: 1px 3px 3px black;
+form {
+  display: flex;
+  flex-direction: column;
 }
 
-.formcarry-form input,
-.formcarry-form textarea {
-  font-size: 16px;
-  display: block;
-  width: 100%;
-  padding: 13px;
-  margin-top: 15px;
-  background-color: white;
-  border: none;
-  border: 4px solid #234070;
-  outline: none;
-  border-radius: 6px;
-  color: #234070;
-  box-shadow: 1px 3px 3px black;
-}
-
-.formcarry-form input:focus,
-.formcarry-form textarea:focus {
-  background-color: white;
-  color: #234070;
-}
-
-.formcarry-form input:focus:required:invalid {
-  border-color: #234070;
-  background-color: white;
-}
-
-.formcarry-form button {
-  display: block;
-  margin-top: 8px;
-  width: 100%;
-  padding: 12px 20px;
-  border-radius: 8px;
-	border-color: transparent;
-  background-color: #234070;
-  color: #fff;
-  font-weight: 700;
-  font-size: 18px;
-  transition: 300ms all;
-}
-
-.formcarry-form button:hover {
-  background-color: #1d355d;
-  cursor: pointer;
-  
-}
-
-.formcarry-alert {
-  padding: 12px;
-  border-radius: 10px;
-  color: black;
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
   font-size: 14px;
-  font-weight: 400;
-  margin-top: 12px;
-  display: none;
 }
 
-.formcarry-alert.visible {
-  display: block;
+button {
+  padding: 10px 20px;
+  background-color: #234070;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-.formcarry-alert.success {
-  background: #234070;
-}
-
-.formcarry-alert.error {
-  background: #234070;
+button:hover {
+  background-color: #1d355d;
 }
 
 

@@ -21,5 +21,8 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "dependencies": {
+    "emailjs-com": "^3.2.0"
   }
 }
